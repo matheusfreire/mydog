@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">mydog</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="email_empty">E-mail é obrigatório</string>
+    <string name="invalid_email">E-mail inválido</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="husky">Husky</string>
+    <string name="hound">Hound</string>
+    <string name="pug">Pug</string>
+    <string name="labrador">Labrador</string>
+    <string name="none_dog_reached">Nenhum cachorro encontrado</string>
+</resources>

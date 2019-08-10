@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav"
+            app:startDestination="@id/loginFragment">
+    <fragment android:id="@+id/loginFragment" android:name="com.msf.mydog.ui.LoginFragment"
+              android:label="LoginFragment">
+        <action
+            android:id="@+id/action_loginFragment_to_collectionFragment"
+            app:destination="@id/collectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collectionFragment"
+        android:name="com.msf.mydog.ui.CollectionFragment"
+        android:label="CollectionFragment" >
+        <action
+            android:id="@+id/action_collectionFragment_to_fullScreenDialogFragment"
+            app:destination="@id/fullScreenDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fullScreenDialogFragment"
+        android:name="com.msf.mydog.ui.FullScreenDialogFragment"
+        android:label="FullScreenDialogFragment" >
+        <argument
+            android:name="image"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
